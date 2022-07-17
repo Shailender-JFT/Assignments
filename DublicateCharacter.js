@@ -1,8 +1,11 @@
-var name="shailender yadav";
+var name="my name is shailender yadav";
 var set=new Set();
 
-for(let i=0;i<name.length-1;i++){
+for(let i=0;i<name.length;i++){
     for(let j=i+1; j<name.length-1;j++){
+        if(name[i]==" "){
+            continue;
+        }
         if(name[i]===name[j]){
             set.add(name[i]);
         //    console.log(set);

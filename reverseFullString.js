@@ -1,11 +1,10 @@
 console.log('Script is running');
 
-var str = "shailender yadav";
+var str = "my name is shailender yadav";
 
 var m= str.split(" ");
 // console.log(m);
 var ans=[];
-// var input = process.stdin;
 
 // str1=str.split('');
 // console.log(str1);
@@ -24,5 +23,4 @@ for(let i=0;i<m.length;i++){
     ans[i]=reverse(m[i]);   
     // console.log(ans);
 }
-
 console.log(ans);
