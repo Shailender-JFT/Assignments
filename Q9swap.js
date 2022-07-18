@@ -6,10 +6,10 @@ console.log("before b "+b);
 
 
 a=a+b;
-console.log(a);
+// console.log(a);
 
 b=a-b;
-console.log(b);
+// console.log(b);
 
 a=a-b;
 

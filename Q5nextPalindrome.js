@@ -26,9 +26,9 @@ else{
     
 //     }
 
-    for(let i=1992; true ;i++){
+    for(let i=1992; i<=3000 ;i++){
         if(palindrome(i)){
             console.log(i)
-            break;
+        
         }
     }
